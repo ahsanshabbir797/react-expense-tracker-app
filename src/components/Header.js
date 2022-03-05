@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <h2>
-      Expense Tracker
+      Expense Tracker by Ahsan Shabbir Abbasi
     </h2>
   )
 }
