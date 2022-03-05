@@ -47,6 +47,6 @@ jobs:
         run: npm install --global surge
         
       - name: Deploy Surge
-        run: surge ./build ahsanproject003.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build ahsanexpensetracker.surge.sh --token ${{secrets.SURGE_TOKEN}}
 
      
